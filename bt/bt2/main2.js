@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var bt2_1 = require("./bt2");
+var stack = new bt2_1.Stack();
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.push(4);
+stack.pop();
+stack.pop();
+stack.pop();
+stack.pop();
+console.log(stack.pop());

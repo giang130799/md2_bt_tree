@@ -1,0 +1,16 @@
+"use strict";
+exports.__esModule = true;
+var bt1_1 = require("./bt1");
+var bt1_2 = require("./bt1");
+var queue = new bt1_2.Queue();
+var stack = new bt1_1.Stack();
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.push(4);
+queue.enqueue(1);
+queue.enqueue(2);
+queue.enqueue(3);
+queue.enqueue(4);
+console.log(stack.pop());
+console.log(queue.dequeue());
